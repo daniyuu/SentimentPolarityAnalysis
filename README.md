@@ -1,3 +1,28 @@
+##### For Windows users# Note: <> denotes changes to be made
+#Quick Start 
+1. Create a conda environment
+    ```
+    conda create --name <environment-name> python=<version:2.7/3.5>
+    ```
+2. To create a requirements.txt file:
+    ```
+        conda list #Gives you list of packages used for the environment
+    ```
+3. Export dependencies to requirements.txt
+    ```
+    conda list -e > requirements.txt #Save all the info about packages to your folder
+    ```
+4. To export environment file
+    ```buildoutcfg
+    activate <environment-name>
+    conda env export > <environment-name>.yml
+    ```
+5. For other person to use the environment
+    ```buildoutcfg
+    conda env create -f <environment-name>.yml
+    ```
+
+
 ## 1、预处理
 ### （1）、特征提取
 - 对应文件：feature_extraction.py

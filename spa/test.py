@@ -242,10 +242,10 @@ def test_waimai():
     # test.single_multiprocess()
     # test.multiple_multiprocess()
 
-    # test.test_knn()
-    # test.test_bayes()
-    # test.test_maxent()
-    # test.test_maxent_iteration()
+    test.test_knn()
+    test.test_bayes()
+    test.test_maxent()
+    test.test_maxent_iteration()
     test.test_svm()
     # test.test_multiple_classifiers()
     # test.test_multiple_classifiers2()
@@ -267,8 +267,8 @@ def test_waimai2():
 
     test = Test(type_, train_num, test_num, feature_num, max_iter, C, k, corpus)
 
-    test.single_multiprocess()
-    test.multiple_multiprocess()
+    # test.single_multiprocess()
+    # test.multiple_multiprocess()
 
 
 def test_hotel():
@@ -344,9 +344,9 @@ def test_dict():
 if __name__ == "__main__":
     # test_movie()
     # test_movie2()
-    # test_waimai()
+    test_waimai()
     # test_waimai2()
     # test_hotel()
-    test_dict()
+    # test_dict()
 
 
