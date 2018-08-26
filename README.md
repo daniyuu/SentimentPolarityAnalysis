@@ -6,7 +6,7 @@
     ```
 2. To create a requirements.txt file:
     ```
-        conda list #Gives you list of packages used for the environment
+    conda list #Gives you list of packages used for the environment
     ```
 3. Export dependencies to requirements.txt
     ```
