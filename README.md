@@ -4,6 +4,13 @@
     ```
     conda create --name <environment-name> python=<version:2.7/3.5>
     ```
+	```bash
+        conda create --name <environment-name> python=<version:2.7/3.5>
+        conda install -c anaconda xlwt
+        conda install -c conda-forge jieba
+        conda install -c anaconda numpy
+        conda install -c anaconda scikit-learn
+    ```
 2. To create a requirements.txt file:
     ```
     conda list #Gives you list of packages used for the environment
